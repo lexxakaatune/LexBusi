@@ -1,9 +1,17 @@
 @import './css/global.css';
 @import './css/navbar.css';
+@import './css/products.css';
 @import './css/productCard.css';
+@import './css/productDetails.css';
 @import './css/banner.css';
 @import './css/footer.css';
 @import './css/home.css';
+@import './css/adminPages.css';
+@import './css/adminDashboard.css';
+@import './css/auth.css';
+@import './css/cart.css';
+@import './css/checkout.css';
+@import './css/dashboard.css';
 
 * {
   margin: 0;
