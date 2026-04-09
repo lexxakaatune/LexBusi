@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { FiShoppingCart } from 'react-icons/fi';
 import { useCart } from '../hooks/useCart';
 import toast from 'react-hot-toast';
-import './ProductCard.css';
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();
