@@ -125,7 +125,7 @@ System must:
 WhatsApp Click‑to‑Chat (NO Cloud API):
 After checkout confirmation:
 Generate a WhatsApp link:
-https://wa.me/2348065391792?text=<ENCODED ORDER DETAILS>
+https://wa.me/number?text=<ENCODED ORDER DETAILS>
 
 Include:
 - User name
