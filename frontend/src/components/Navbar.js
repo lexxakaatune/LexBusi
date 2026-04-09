@@ -4,7 +4,6 @@ import { FiShoppingCart, FiLogOut, FiMenu, FiX, FiSun, FiMoon } from 'react-icon
 import { useAuth } from '../hooks/useAuth';
 import { useCart } from '../hooks/useCart';
 import { useTheme } from '../hooks/useTheme';
-import './Navbar.css';
 
 const Navbar = () => {
   const { user, logout, isAuthenticated } = useAuth();
