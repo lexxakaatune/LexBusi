@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Banner from '../components/Banner';
 import api from '../utils/api';
-import './Home.css';
 
 const Home = () => {
   const [banners, setBanners] = useState([]);
