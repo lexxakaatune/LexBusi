@@ -1,6 +1,7 @@
 @import './css/global.css';
 @import './css/navbar.css';
 @import './css/productCard.css';
+@import './css/banner.css';
 
 * {
   margin: 0;
