@@ -2,6 +2,8 @@
 @import './css/navbar.css';
 @import './css/productCard.css';
 @import './css/banner.css';
+@import './css/footer.css';
+@import './css/home.css';
 
 * {
   margin: 0;
