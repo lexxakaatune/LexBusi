@@ -1,0 +1,39 @@
+.admin-dashboard-page {
+  padding: var(--spacing-lg) 0;
+  min-height: calc(100vh - 200px);
+}
+
+.admin-dashboard-page h1 {
+  margin-bottom: var(--spacing-lg);
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.admin-card {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+}
+
+.admin-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.admin-card h3 {
+  margin: 0 0 var(--spacing-md) 0;
+  font-size: 1.5rem;
+}
+
+.admin-card p {
+  margin: 0;
+  opacity: 0.9;
+}
